@@ -38,7 +38,8 @@
 </script>
 
 <svelte:head>
-  <meta name="theme-color" content="{currentAccentColor.themeHexCode}" />
+	<meta name="theme-color" content="{currentAccentColor.themeHexCode}" />
+	<link rel="icon" href="/favicon/lonnie-favicon-{currentAccentColor.name}.png" />
 </svelte:head>
 
 <div style="--accentColor: {currentAccentColor.accentHexCode}; --themeColor: {currentAccentColor.themeHexCode}" id="container">
