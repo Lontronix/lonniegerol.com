@@ -1,0 +1,39 @@
+{
+	"companies": [
+			{
+				"companyName": "WillowTree (Upcoming)",
+				"companyWebsite": "https://www.willowtreeapps.com/",
+				"jobTitle": "Software Engineering Intern",
+				"photoSrc": "companies/willowtree.png",
+				"description": "During the summer of 2023 I will have the opportunity to work with a team of talented engineers to create polished and user focused mobile apps."
+			},
+			{
+				"companyName": "Bryx",
+				"companyWebsite": "https://bryx.com",
+				"jobTitle": "iOS Engineering Intern",
+				"photoSrc": "companies/bryx.jpg",
+				"description": "Worked with a small team of iOS developers to add new features and improve reliability of Bryx 911. Bryx 911 is an app that is relied on by tens of thousands of first responders to do their jobs."
+			},
+			{
+				"companyName": "Apple",
+				"companyWebsite": "https://apple.com",
+				"jobTitle": "Software Engineering Intern",
+				"photoSrc": "companies/apple.jpg",
+				"description": "Worked on a team that was in charge of the tvOS system shell. I participated in prototyping and design of a really cool new feature but I can't say much more 🤐"
+			},
+			{
+				"companyName": "Macro",
+				"companyWebsite": null,
+				"jobTitle": "Software Engineering Intern",
+				"photoSrc": "companies/macro.jpg",
+				"description": "Prototyped an iOS version of the Macro Zoom client that offered a drastically improved user experience compared to the default Zoom iOS app."
+			},
+			{
+				"companyName": "Bio Behavioral Therapeutics",
+				"companyWebsite": "http://jpedrazamd.com/",
+				"jobTitle": "Freelance iOS Developer",
+				"photoSrc": "companies/bbt.jpg",
+				"description": "Designed and programmed native iOS and Android apps that are relied on by patients and providers to ask questions and submit refill requests to their practitioner."
+			}
+	]
+}

@@ -1,0 +1,49 @@
+@import "./jetbrains-mono.css";
+
+:root {
+	font-family: "JetBrains Mono";
+	margin: auto;
+	max-width: 800px;
+}
+
+h1, h2 {
+	color: var(--accentColor);
+}
+
+h2 {
+	border-bottom: 3px dotted;
+}
+
+a {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 480px) {
+	:root {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		background-color: #242424;
+		color: #dbe5f0;
+	}
+
+	a {
+		color: white;
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		background-color: #FFFFF8;
+		color: black;
+	}
+
+	a {
+		color: black;
+	}
+}

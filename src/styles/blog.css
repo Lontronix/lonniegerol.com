@@ -1,0 +1,21 @@
+article a {
+	font-weight: normal;
+	text-decoration: underline;
+	text-decoration-color: var(--accentColor);
+	text-underline-offset: 2.0px;
+	text-decoration-thickness: 0.2em;
+	text-decoration-skip-ink: none;
+}
+
+.front-matter {
+	margin-bottom: 10px
+}
+
+.post-title {
+	margin-bottom: 10px;
+}
+
+.post-date-posted {
+	margin-top: 10px;
+	font-size: 85%;
+}
