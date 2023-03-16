@@ -31,11 +31,11 @@
 		</ul>
 
 		<h2>Experience</h2>
-		<p>A brief overview of my work experience as a Software Engineer:</p>
 		<p>If you would prefer to view my resume, you can find that
 			<a id="resume-url" href={`https://resume.lonniegerol.com/${currentAccentColor.name}`} target="_blank">here</a>
 		</p>
 
+		<p>A brief overview of my work experience as a Software Engineer:</p>
 		<div>
 			{#each experience.companies as job}
 				<Experience

@@ -5,7 +5,7 @@
 	import { onMount } from 'svelte';
 	import '../styles/app.css';
 
-	const possibilities = [
+	const bioPossibilities = [
 		"Fish Keeper",
 		"Apple Fan",
 		"Capybara Lover",
@@ -13,7 +13,7 @@
 		"Professional Boyfriend",
 		"Cyclist",
 		"Avid Runner",
-		"Tim"
+		"Always Learning"
 	];
 
 	let currentAccentColor;
@@ -21,8 +21,8 @@
 		currentAccentColor = value;
 	});
 
-	function getRandomPossibility() {
-		return possibilities[Math.floor(Math.random() * possibilities.length)];
+	function getRandomBioPossibility() {
+		return bioPossibilities[Math.floor(Math.random() * bioPossibilities.length)];
 	}
 
 	onMount(() => {
@@ -31,7 +31,7 @@
 		  startDelay: 0,
 		})
 		.type("// Software Engineer, Computer Science Major, ", { instant: true})
-		.type(getRandomPossibility())
+		.type(getRandomBioPossibility())
 		.go();
 	});
 

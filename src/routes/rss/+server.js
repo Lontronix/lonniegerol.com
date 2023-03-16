@@ -30,8 +30,8 @@ const render = (posts) =>
 	  id: "https://lonniegerol.com/",
 	  link: "https://lonniegerol.com/",
 	  language: "en", // optional, used only in RSS 2.0, possible values: http://www.w3.org/TR/REC-html40/struct/dirlang.html#langcodes
-	  // image: "http://example.com/image.png",
-	  // favicon: "http://example.com/favicon.ico",
+	  image: "https://s3.csh.rit.edu/lontronix-website/favicon.png",
+	  favicon: "https://s3.csh.rit.edu/lontronix-website/favicon.png",
 	  copyright: "All rights reserved 2023, Lonnie Gerol",
 	  feedLinks: {
 		atom: "https://lonniegerol.com/rss"

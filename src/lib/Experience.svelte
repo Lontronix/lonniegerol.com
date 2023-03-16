@@ -22,6 +22,8 @@
 <style>
 
 	.experience-card {
+		display: block;
+		min-height: 100px;
 		margin-bottom: 50px;
 	}
 

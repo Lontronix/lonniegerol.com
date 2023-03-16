@@ -1,7 +1,7 @@
 @import "./jetbrains-mono.css";
 
 :root {
-	font-family: "JetBrains Mono";
+	font-family: "JetBrains Mono", monospace;
 	margin: auto;
 	max-width: 800px;
 }
