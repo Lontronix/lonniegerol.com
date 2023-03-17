@@ -112,6 +112,10 @@ nav a {
 	text-align: center;
 }
 
+#header h1 {
+	font-size: 2.0rem;
+}
+
 #footer {
 	margin: auto;
 	font-size: 14px;

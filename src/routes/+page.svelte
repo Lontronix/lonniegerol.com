@@ -10,7 +10,7 @@
 </script>
 
 <main>
-	<h2>About</h2>
+	<h1>About</h1>
 	<div>
 		<img src="https://s3.csh.rit.edu/lontronix-website/me.jpeg" alt="Lonnie smiling" id="lonnie-photo" width=250 height=250>
 		<p>Hi I'm Lonnie <span>👋🏻</span></p>
@@ -30,7 +30,7 @@
 			<li>Email: lonnie (at) lonniegerol.com</li>
 		</ul>
 
-		<h2>Experience</h2>
+		<h1>Experience</h1>
 		<p>If you would prefer to view my resume, you can find that
 			<a id="resume-url" href={`https://resume.lonniegerol.com/${currentAccentColor.name}`} target="_blank">here</a>
 		</p>

@@ -1,4 +1,5 @@
 @import "./jetbrains-mono.css";
+@import "./shiki.css";
 
 :root {
 	font-family: "JetBrains Mono", monospace;
@@ -6,12 +7,21 @@
 	max-width: 800px;
 }
 
-h1, h2 {
-	color: var(--accentColor);
+main {
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+h1 {
+	font-size: 1.5rem;
 }
 
 h2 {
-	border-bottom: 3px dotted;
+	font-size: 1.0rem;
+}
+
+h1, h2 {
+	color: var(--accentColor);
 }
 
 a {

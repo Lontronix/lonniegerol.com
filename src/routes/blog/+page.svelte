@@ -16,7 +16,7 @@ export let data
 
 	hr {
 		position:relative;
-		padding:3rem 0;
+		padding: 2rem 0;
 		border:none;
 	}
 

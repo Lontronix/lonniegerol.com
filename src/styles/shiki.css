@@ -1,0 +1,26 @@
+/* inspired by https://rodneylab.com/sveltekit-shiki-syntax-highlighting/ */
+ .shiki {
+	border-radius: 0.25rem;
+	padding: 1.5rem 1rem;
+	margin: 1rem auto 4.5rem;
+	overflow-x: auto;
+	max-width: 100%;
+	margin-bottom: 30px;
+ }
+
+.shiki code {
+	padding: 0;
+	counter-reset: step;
+	counter-increment: step 0;
+	background-color: transparent;
+ }
+
+code .line::before {
+	display: inline-block;
+	content: counter(step);
+	counter-increment: step;
+	width: 1.5rem;
+	margin-right: 1.5rem;
+	text-align: right;
+	color: hsl(219 14% 71% / 0.8);
+}
