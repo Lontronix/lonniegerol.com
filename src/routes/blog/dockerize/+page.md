@@ -29,19 +29,26 @@ FROM docker.io/node:19 as builder
 
 # Setup
 
-WORKDIR /app 										#1
+#1
+WORKDIR /app
 
-COPY ["package.json", "package-lock.json*", "./"]	#2
+#2
+COPY ["package.json", "package-lock.json*", "./"]
 
-RUN npm install										#3
+#3
+RUN npm install
 
-COPY . /app/										#4
+#4
+COPY . /app/
 
-ENV NODE_ENV=production								#5
+#5
+ENV NODE_ENV=production
 
-RUN npm run build									#6
+#6
+RUN npm run build
 
-COPY build/ /app/build/								#7
+#7
+COPY build/ /app/build/
 
 # Starting the Application
 CMD [ "node", "build/index.js" ]
