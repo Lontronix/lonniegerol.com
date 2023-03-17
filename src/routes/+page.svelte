@@ -1,4 +1,5 @@
 <script>
+	import { MetaTags } from 'svelte-meta-tags';
 	import Experience from '../lib/Experience.svelte';
 	import experience from '../lib/experience.json';
 	import * as accentColor from "$lib/Accent-Color/AccentColor.ts";
@@ -9,6 +10,22 @@
 	});
 </script>
 
+
+<MetaTags
+	title="Lonnie Gerol"
+	description="Lonnie's Corner of the Internet"
+	openGraph={{
+		type: "website",
+		title: "Lonnie Gerol",
+		description: "Lonnie's Corner of the Internet",
+		images: [{
+			url: "https://s3.csh.rit.edu/lontronix-website/lonnie-hero.jpeg",
+			width: 2400,
+			height: 1260,
+			alt: "Lonnie Standing on the peak of a mountain"
+		}]
+	}}
+/>
 <main>
 	<h1>About</h1>
 	<div>
