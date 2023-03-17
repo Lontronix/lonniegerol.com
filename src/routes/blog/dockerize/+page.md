@@ -28,19 +28,20 @@ In the case of lonniegerol.com, this is what that looks like:
 FROM docker.io/node:19 as builder
 
 # Setup
-ENV NODE_ENV=production
 
-WORKDIR /app
+WORKDIR /app 										#1
 
-COPY package*.json /app
+COPY ["package.json", "package-lock.json*", "./"]	#2
 
-RUN npm install
+RUN npm install										#3
 
-COPY . /app/
+COPY . /app/										#4
 
-RUN npm run build
+ENV NODE_ENV=production								#5
 
-COPY build/ /app/build
+RUN npm run build									#6
+
+COPY build/ /app/build/								#7
 
 # Starting the Application
 CMD [ "node", "build/index.js" ]
@@ -57,13 +58,13 @@ npm-debug.log
 #### Base Image
 - The app I'm hosting is a node app, so i'm using the node base image
 #### Setup
-- **Line 5**: Setting node's environment to `production` so that things like the commit hash that are only shown in dev are hidden
-- **Line 7**: Setting the current working directory in the container
-- **Line 9**: Copying both `package.json` and `package-lock.json` into the container's working directory
-- **Line 11**: Installing node packages
-- **Line 13**: Copying all files (that aren't in the `.dockerignore` file) into the container's working directory
-- **Line 15**: Compiling all `.svelte` files into html files that are ready to be served
-- **Line 17**: Copying the built site into the containers working directory
+1. Setting node's environment to `production` so that things like the commit hash that are only shown in dev are hidden
+2. Setting the current working directory in the container
+3. Copying both `package.json` and `package-lock.json` into the container's working directory
+4. Installing node packages
+5. Copying all files (that aren't in the `.dockerignore` file) into the container's working directory
+6. Compiling all `.svelte` files into html files that are ready to be served
+7. Copying the built site into the containers working directory
 #### Starting the Application
 - Starting the node server and serving my website
 
