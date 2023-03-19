@@ -15,4 +15,7 @@ To create a production version:
 npm run build
 ```
 
+## Testing locally
+[insert instructions here]
+
 You can preview the production build with `npm run preview`.
