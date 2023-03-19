@@ -1,5 +1,6 @@
 <script>
 	import * as accentColor from "$lib/Accent-Color/AccentColor.ts";
+	import Footer from "$lib/Footer/Footer.svelte";
 	import AccentSelector from '$lib/Accent-Color/AccentSelector.svelte';
 	import TypeIt from "typeit";
 	import { onMount } from 'svelte';
@@ -64,12 +65,10 @@
 			</div>
 
 			<main>
-			<slot/>
+				<slot/>
 			</main>
 
-			<div id="footer">
-				<p>Copyright &copy; {new Date().getFullYear()} - Lonnie Gerol All Rights Reserved.</p>
-			</div>
+			<Footer/>
 	</div>
 	<div id="right-strip"></div>
 </div>
@@ -114,12 +113,6 @@ nav a {
 
 #header h1 {
 	font-size: 2.0rem;
-}
-
-#footer {
-	margin: auto;
-	font-size: 14px;
-	text-align: center;
 }
 
 </style>
