@@ -1,9 +1,10 @@
 <script>
-export let title
-export let date
 
-const dateObject = new Date(date)
-const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+	export let title
+	export let date
+
+	const dateObject = new Date(date)
+	const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
 </script>
 
 <article>

@@ -1,10 +1,13 @@
 <script>
 	import * as accentColor from "$lib/Accent-Color/AccentColor.ts";
+	import Ribbon from "$lib/Ribbon.svelte";
 	import Footer from "$lib/Footer/Footer.svelte";
 	import AccentSelector from '$lib/Accent-Color/AccentSelector.svelte';
 	import TypeIt from "typeit";
 	import { onMount } from 'svelte';
 	import '../styles/app.css';
+
+	export let data
 
 	const bioPossibilities = [
 		"Fish Keeper",
@@ -45,6 +48,10 @@
 
 <div style="--accentColor: {currentAccentColor.accentHexCode}; --themeColor: {currentAccentColor.themeHexCode}" id="container">
 
+	{#if data.env === "development"}
+		<Ribbon text="Development"/>
+	{/if}
+
 	<div id= "left-strip"></div>
 	<div>
 		<div id="header">
@@ -68,51 +75,52 @@
 				<slot/>
 			</main>
 
-			<Footer/>
+			<Footer env={data.env}/>
 	</div>
 	<div id="right-strip"></div>
 </div>
 
 <style>
-nav {
-	margin-block-start: 1em;
-	margin-block-end: 1em;
+
+	nav {
+		margin-block-start: 1em;
+		margin-block-end: 1em;
+	}
+
+	nav a {
+		text-decoration: none;
+	}
+
+	.nav-seperator {
+		color: var(--accentColor);
+	}
+
+	#left-strip {
+		position: fixed;
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 3px;
+		background-color: var(--themeColor);
+	}
+
+	#right-strip {
+		position: fixed;
+		right: 0;
+		top: 0;
+		height: 100%;
+		width: 3px;
+		background-color: var(--themeColor);
 }
 
-nav a {
-	text-decoration: none;
-}
+	#header {
+		margin: auto;
+		font-size: 18px;
+		text-align: center;
+	}
 
-.nav-seperator {
-	color: var(--accentColor);
-}
-
-#left-strip {
-	position: fixed;
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 3px;
-	background-color: var(--themeColor);
-}
-
-#right-strip {
-	position: fixed;
-	right: 0;
-	top: 0;
-	height: 100%;
-	width: 3px;
-	background-color: var(--themeColor);
-}
-
-#header {
-	margin: auto;
-	font-size: 18px;
-	text-align: center;
-}
-
-#header h1 {
-	font-size: 2.0rem;
-}
+	#header h1 {
+		font-size: 2.0rem;
+	}
 
 </style>

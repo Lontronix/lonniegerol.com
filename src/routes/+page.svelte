@@ -10,7 +10,6 @@
 	});
 </script>
 
-
 <MetaTags
 	title="Lonnie Gerol"
 	description="Lonnie's Corner of the Internet"
