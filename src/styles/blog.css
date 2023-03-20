@@ -38,3 +38,10 @@ code {
 	margin-top: 10px;
 	font-size: 85%;
 }
+
+
+@media (prefers-color-scheme: light) {
+	code {
+		background-color: #d3d3d3;
+	}
+}
