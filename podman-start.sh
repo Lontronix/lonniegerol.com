@@ -3,20 +3,20 @@ podman rm lonniegerol.com
 
 if [[ $1 = dev ]]
 then
-	export NODE_ENV="development"
+	export SITE_ENV="development"
 	podman build -t lontronix/lonniegerol.com .
 	podman run -i -t -p 8080:8080 \
 		-e PORT='8080' \
-		-e NODE_ENV="development" \
+		-e SITE_ENV="development" \
 		--name lonniegerol.com \
 		lontronix/lonniegerol.com
 elif [[ $1 = prod ]]
 then
-	export NODE_ENV="production"
+	export SITE_ENV="production"
 	podman build -t lontronix/lonniegerol.com .
 	podman run -i -t -p 8080:8080 \
 		-e PORT='8080' \
-		-e NODE_ENV="production" \
+		-e SITE_ENV="production" \
 		--name lonniegerol.com \
 		lontronix/lonniegerol.com
 fi
