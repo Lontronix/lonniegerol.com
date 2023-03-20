@@ -141,6 +141,10 @@
 			width: 100%;
 			margin-left: 0px;
 		}
+
+		.social-image {
+			display: block;
+		}
 	}
 
 	@media (prefers-color-scheme: light) {
