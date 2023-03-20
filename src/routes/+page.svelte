@@ -37,13 +37,14 @@
 
 		<p>In my free time, I can be found running, cycling or caring for my fish (I have 4 Black Phantom Tetra and 4 Neon Tetras).</p>
 
+		<h2>Around the Web</h2>
 		<p>You can find me in the following places around the web:</p>
-		<ul>
-			<li>GitHub: <a href="https://github.com/lontronix">@Lontronix</a></li>
-			<li>Twitter: <a href="https://twitter.com/lontronix">@Lontronix</a></li>
-			<li>Mastodon: <a href="https://iosdev.space/@lonnie">@lonnie@iosdev.space<a></li>
-			<li>LinkedIn: <a href="https://www.linkedin.com/in/lonniegerol/">Lonnie Gerol</a></li>
-			<li>Email: lonnie (at) lonniegerol.com</li>
+		<ul id="social-list">
+			<li><img class="social-image" src="/icons/github.svg"/><p class="social-text">GitHub: <a href="https://github.com/lontronix">@Lontronix</a></p></li>
+			<li><img class="social-image" src="/icons/twitter.svg"/><p class="social-text">Twitter: <a href="https://twitter.com/lontronix">@Lontronix</a></p></li>
+			<li><img class="social-image" src="/icons/mastodon.svg"/><p class="social-text">Mastodon: <a href="https://iosdev.space/@lonnie">@lonnie@iosdev.space</a></p></li>
+			<li><img class="social-image" src="/icons/linkedin.svg"/><p class="social-text">LinkedIn: <a href="https://www.linkedin.com/in/lonniegerol">Lonnie Gerol</a></p></li>
+			<li><img class="social-image" src="/icons/envelope-solid.svg"/><p class="social-text">Email: lonnie (at) lonniegerol.com</p></li>
 		</ul>
 
 		<h1>Experience</h1>
@@ -75,6 +76,32 @@
 </main>
 
 <style>
+
+	.social-image, .social-text {
+		vertical-align: middle;
+		display: inline-block;
+	}
+	.social-image {
+		width: 1.15em;
+		height: 1.15em;
+		padding-right: 0.30em;
+		filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(139deg) brightness(103%) contrast(101%);
+	}
+
+	.social-text {
+		margin: 0;
+	}
+
+	#social-list li {
+		align-items: center;
+		vertical-align: middle;
+		padding-top: 10px;
+	}
+	#social-list {
+		list-style: none;
+		padding-inline-start: 20px;
+		margin-block-end: 32px;
+	}
 
 	#lonnie-photo {
 		float: right;
@@ -113,6 +140,12 @@
 			height: 100%;
 			width: 100%;
 			margin-left: 0px;
+		}
+	}
+
+	@media (prefers-color-scheme: light) {
+		.social-image {
+			filter: invert(0%) sepia(0%) saturate(56%) hue-rotate(325deg) brightness(107%) contrast(100%);
 		}
 	}
 

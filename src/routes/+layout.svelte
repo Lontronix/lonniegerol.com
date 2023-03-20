@@ -69,14 +69,15 @@
 				<a href={`https://resume.lonniegerol.com/${currentAccentColor.name}`} target="_blank" rel="noreferrer">Resume</a>
 				<span class="nav-seperator">:</span>
 			</nav>
-			</div>
+		</div>
 
 			<main>
 				<slot/>
 			</main>
 
 			<Footer env={data.env}/>
-	</div>
+
+		</div>
 	<div id="right-strip"></div>
 </div>
 
