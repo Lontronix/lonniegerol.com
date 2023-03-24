@@ -8,6 +8,19 @@
 	accentColor.currentAccentColor.subscribe(value => {
 		currentAccentColor = value;
 	});
+
+	/**
+		swaps between a serious photo of lonnie and a memoji photo
+	*/
+	let lonnieImageSrc = __LONNIE_SERIOUS_IMG__;
+	function switchLonnieImage() {
+		if (lonnieImageSrc == __LONNIE_SERIOUS_IMG__) {
+			lonnieImageSrc = __LONNIE_MEMOJI__IMG__;
+		} else {
+			lonnieImageSrc = __LONNIE_SERIOUS_IMG__;
+		}
+	}
+
 </script>
 
 <MetaTags
@@ -28,7 +41,7 @@
 <main>
 	<h1>About</h1>
 	<div>
-		<img src="https://s3.csh.rit.edu/lontronix-website/me.jpeg" alt="Lonnie smiling" id="lonnie-photo" width=250 height=250>
+		<img src={lonnieImageSrc} on:mouseover={switchLonnieImage} on:mouseout={switchLonnieImage} on:touchstart={switchLonnieImage} alt="Lonnie smiling" id="lonnie-photo" width=250 height=250>
 		<p>Hi I'm Lonnie <span>👋🏻</span></p>
 		<p>I'm an iOS developer and fourth year Computer Science Major at the <a id="rit-url" href="https://rit.edu"> Rochester Institute of Technology</a>.</p>
 		<p>
