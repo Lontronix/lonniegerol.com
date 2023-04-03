@@ -54,7 +54,7 @@
 		<p>You can find me in the following places around the web:</p>
 		<ul id="social-list">
 			<li><img class="social-image" src="/icons/github.svg"/><p class="social-text">GitHub: <a href="https://github.com/lontronix">@Lontronix</a></p></li>
-			<li><img class="social-image" src="/icons/twitter.svg"/><p class="social-text">Twitter: <a href="https://twitter.com/lontronix">@Lontronix</a></p></li>
+			<li><img class="social-image" src="/icons/twitter.svg"/><p class="social-text">Twitter: <a rel=me href="https://twitter.com/lontronix">@Lontronix</a></p></li>
 			<li><img class="social-image" src="/icons/mastodon.svg"/><p class="social-text">Mastodon: <a href="https://iosdev.space/@lonnie">@lonnie@iosdev.space</a></p></li>
 			<li><img class="social-image" src="/icons/linkedin.svg"/><p class="social-text">LinkedIn: <a href="https://www.linkedin.com/in/lonniegerol">Lonnie Gerol</a></p></li>
 			<li><img class="social-image" src="/icons/envelope-solid.svg"/><p class="social-text">Email: lonnie (at) lonniegerol.com</p></li>
