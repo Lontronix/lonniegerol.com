@@ -26,9 +26,6 @@ const blueAccent = new AccentColor("blue", "#1FA4DB", "#1FA4DB");
 
 const accentColors = [greenAccent, yellowAccent, orangeAccent, redAccent, purpleAccent, blueAccent];
 
-
-
 const currentAccentColor = writable(blueAccent);
 
 export { greenAccent, yellowAccent, orangeAccent, redAccent, purpleAccent, blueAccent, currentAccentColor }
-
