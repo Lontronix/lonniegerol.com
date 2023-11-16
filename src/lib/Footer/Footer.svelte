@@ -6,9 +6,9 @@
 	<p>Copyright &copy; {new Date().getFullYear()} - Lonnie Gerol All Rights Reserved.</p>
 
 	<div>
-		<a href="https://iosdev.space/@lonnie"><img class="social-image" src="/icons/mastodon.svg"/></a>
-		<a href="https://github.com/lontronix"><img class="social-image" src="/icons/github.svg"/></a>
-		<a href="https://www.linkedin.com/in/lonniegerol"><img class="social-image" src="/icons/linkedin.svg"/></a>
+		<a href="https://iosdev.space/@lonnie"><img class="social-image" src="/icons/mastodon.svg" alt="The mastodon logo"/></a>
+		<a href="https://github.com/lontronix"><img class="social-image" src="/icons/github.svg" alt="The GitHub logo"/></a>
+		<a href="https://www.linkedin.com/in/lonniegerol"><img class="social-image" src="/icons/linkedin.svg" alt="The LinkedIn logo"/></a>
 	</div>
 
 	{#if env === "development"}
