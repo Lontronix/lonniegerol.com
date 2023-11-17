@@ -1,11 +1,11 @@
 {
 	"companies": [
 			{
-				"companyName": "WillowTree (Upcoming)",
-				"companyWebsite": "https://www.willowtreeapps.com/",
+				"companyName": "WillowTree",
+				"companyWebsite": "https://www.willowtree.ai/",
 				"jobTitle": "Software Engineering Intern",
 				"photoSrc": "companies/willowtree.png",
-				"description": "During the summer of 2023 I will have the opportunity to work with a team of talented engineers to create polished and user focused mobile apps."
+				"description": "Worked on a native iOS app in a 100% Swift and SwiftUI codebase for a Fortune 500 company that is relied upon by hundreds of thousands of users worldwide."
 			},
 			{
 				"companyName": "Bryx",
@@ -19,7 +19,7 @@
 				"companyWebsite": "https://apple.com",
 				"jobTitle": "Software Engineering Intern",
 				"photoSrc": "companies/apple.jpg",
-				"description": "Worked on a team that was in charge of the tvOS system shell. I participated in prototyping and design of a really cool new feature but I can't say much more 🤐"
+				"description": "Contributed to the tvOS system shell. I participated in prototyping and design of a really cool new feature but I can't say much more 🤐."
 			},
 			{
 				"companyName": "Macro",

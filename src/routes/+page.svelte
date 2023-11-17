@@ -53,15 +53,15 @@
 		<h2>Around the Web</h2>
 		<p>You can find me in the following places around the web:</p>
 		<ul id="social-list">
-			<li><img class="social-image" src="/icons/github.svg"/><p class="social-text">GitHub: <a href="https://github.com/lontronix">@Lontronix</a></p></li>
-			<li><img class="social-image" src="/icons/mastodon.svg"/><p class="social-text">Mastodon: <a href="https://iosdev.space/@lonnie">@lonnie@iosdev.space</a></p></li>
-			<li><img class="social-image" src="/icons/linkedin.svg"/><p class="social-text">LinkedIn: <a href="https://www.linkedin.com/in/lonniegerol">Lonnie Gerol</a></p></li>
-			<li><img class="social-image" src="/icons/envelope-solid.svg"/><p class="social-text">Email: lonnie (at) lonniegerol.com</p></li>
+			<li><img class="social-image" src="/icons/github.svg" alt="The GitHub Logo"/><p class="social-text">GitHub: <a href="https://github.com/lontronix">@Lontronix</a></p></li>
+			<li><img class="social-image" src="/icons/mastodon.svg" alt="The Mastodon Logo"/><p class="social-text">Mastodon: <a href="https://iosdev.space/@lonnie">@lonnie@iosdev.space</a></p></li>
+			<li><img class="social-image" src="/icons/linkedin.svg" alt="The LinkedIn Logo"/><p class="social-text">LinkedIn: <a href="https://www.linkedin.com/in/lonniegerol">Lonnie Gerol</a></p></li>
+			<li><img class="social-image" src="/icons/envelope-solid.svg" alt="An envelope representing email"/><p class="social-text">Email: lonnie (at) lonniegerol.com</p></li>
 		</ul>
 
 		<h1>Experience</h1>
 		<p>If you would prefer to view my resume, you can find that
-			<a id="resume-url" href={`https://resume.lonniegerol.com/${currentAccentColor.name}`} target="_blank">here</a>
+			<a id="resume-url" href="https://drive.google.com/file/d/1viq1hSpa3qc7tza4rmsMPA_5usynbl_y/view?usp=sharing" rel="noreferrer" target="_blank">here</a>
 		</p>
 
 		<p>A brief overview of my work experience as a Software Engineer:</p>

@@ -20,7 +20,7 @@
             <span class="nav-seperator">:</span>
             <a href="/blog">Blog</a>
             <span class="nav-seperator">:</span>
-            <a href={`https://resume.lonniegerol.com/${currentAccentColor.name}`} target="_blank" rel="noreferrer">Resume</a>
+            <a href={`https://drive.google.com/file/d/1viq1hSpa3qc7tza4rmsMPA_5usynbl_y/view?usp=sharing`} target="_blank" rel="noreferrer">Resume</a>
             <span class="nav-seperator">:</span>
         </nav>
     </div>
