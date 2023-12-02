@@ -61,7 +61,7 @@
 
 		<h1>Experience</h1>
 		<p>If you would prefer to view my resume, you can find that
-			<a id="resume-url" href="https://drive.google.com/file/d/1viq1hSpa3qc7tza4rmsMPA_5usynbl_y/view?usp=sharing" rel="noreferrer" target="_blank">here</a>
+			<a id="resume-url" href={__RESUME_URL__} rel="noreferrer" target="_blank">here</a>
 		</p>
 
 		<p>A brief overview of my work experience as a Software Engineer:</p>
