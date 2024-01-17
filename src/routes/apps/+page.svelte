@@ -3,7 +3,7 @@
 </script>
 
 <MetaTags
-	title="Lonnie's Gerol - My Apps"
+	title="Lonnie Gerol - My Apps"
 	description="Lonnie's Corner of the Internet"
 	openGraph={{
 		type: "website",
