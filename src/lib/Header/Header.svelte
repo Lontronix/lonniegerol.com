@@ -18,6 +18,8 @@
             <span class="nav-seperator">:</span>
             <a href="/">About</a>
             <span class="nav-seperator">:</span>
+            <a href="/apps">Apps</a>
+            <span class="nav-seperator">:</span>
             <a href="/blog">Blog</a>
             <span class="nav-seperator">:</span>
             <a href={__RESUME_URL__} target="_blank" rel="noreferrer">Resume</a>
