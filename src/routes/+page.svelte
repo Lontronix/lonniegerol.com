@@ -43,12 +43,14 @@
 	<div>
 		<img src={lonnieImageSrc} on:mouseover={switchLonnieImage} on:mouseout={switchLonnieImage} on:touchstart={switchLonnieImage} alt="Lonnie smiling" id="lonnie-photo" width=250 height=250>
 		<p>Hi I'm Lonnie <span>👋🏻</span></p>
-		<p>I'm an iOS developer and fourth year Computer Science Major at the <a id="rit-url" href="https://rit.edu"> Rochester Institute of Technology</a>.</p>
-		<p>
-			At RIT, I'm involved with <a id="csh-url" href="https://csh.rit.edu">Computer Science House</a> where I help manage our public facing websites and our <a href="https://www.youtube.com/watch?v=g9F-1vw0m-o"> internet connected vending machines.</a>
-		</p>
 
-		<p>In my free time, I can be found running, cycling or caring for my fish (I have 4 Black Phantom Tetra and 4 Neon Tetras).</p>
+		<p>I'm a Mobile Application Developer with experience developing apps for both iOS and Android.</p>
+
+		<p>I'm also an alumni of the <a href="https://rit.edu" style="text-decoration-color:#F78200;"> Rochester Institute of Technology</a>, where I graduated with a B.S. in Computer Science in the fall of 2025.</p>
+
+		<p>At RIT, I was involved with <a id="csh-url" href="https://csh.rit.edu">Computer Science House</a> where I help manage our public facing websites and our <a href="https://www.youtube.com/watch?v=g9F-1vw0m-o"> internet connected vending machines.</a></p>
+
+		<p>In my free time, I can be found running, cycling or tending to my fish tank (I have a Betta named Bubbles and 3 Snails).</p>
 
 		<h2>Around the Web</h2>
 		<p>You can find me in the following places around the web:</p>

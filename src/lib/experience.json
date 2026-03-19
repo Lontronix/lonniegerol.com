@@ -1,6 +1,13 @@
 {
 	"companies": [
 			{
+				"companyName": "Bryx",
+				"companyWebsite": "https://bryx.com",
+				"jobTitle": "Mobile Engineer",
+				"photoSrc": "companies/bryx.jpg",
+				"description": "I continued my work from my co-ops and also developed the iOS app for Bryx’s new Mass Notification Platform, Bryx Alerts. I also contributed to the development of the Android app."
+			},
+			{
 				"companyName": "WillowTree",
 				"companyWebsite": "https://www.willowtree.ai/",
 				"jobTitle": "Software Engineering Intern",
@@ -12,7 +19,7 @@
 				"companyWebsite": "https://bryx.com",
 				"jobTitle": "iOS Engineering Intern",
 				"photoSrc": "companies/bryx.jpg",
-				"description": "Worked with a small team of iOS developers to add new features and improve reliability of Bryx 911. Bryx 911 is an app that is relied on by tens of thousands of first responders to do their jobs. I also developed the iOS app for Bryx’s new Mass Notification Platform, Bryx Alerts, and contributed to the Android app."
+				"description": "Worked with a small team of iOS developers to add new features and improve reliability of Bryx 911. Bryx 911 is an app that is relied on by tens of thousands of first responders to do their jobs."
 			},
 			{
 				"companyName": "Apple",
